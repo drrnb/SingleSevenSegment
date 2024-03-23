@@ -1,0 +1,15 @@
+# Syntax highlighting for SingleSevenSegment library
+
+sss				KEYWORD1
+
+# Functions
+init        	FUNCTION
+blank       	FUNCTION
+enableOutput 	FUNCTION
+disableOutput 	FUNCTION
+enableSegments  FUNCTION
+showDigit   	FUNCTION
+enablePeriod    FUNCTION
+disablePeriod   FUNCTION
+COMMON_ANODE	LITERAL1
+COMMON_CATHODE	LITERAL1
