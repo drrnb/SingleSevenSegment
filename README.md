@@ -5,7 +5,7 @@ An Arduino library for displaying numbers and segments of a singular seven segme
 Most libraries out there cater for multiple displays such as those in clocks, ovens etc... but sometimes, that's overkill and just 1 is enough.
 
 # How?
-See the examples directory for an example bit to display a number 8 for example is as simple as setting the corresponding pins and:  
+See [the counter example project file](examples/counterWithDelay/counterWithDelay.ino), but to display a number 8 for example is as simple as setting the corresponding pins and:  
 ```cpp
 #include <SingleSevenSegment.h>
 
@@ -22,7 +22,7 @@ void setup() {
 
 void loop() {}
 ```
-# Licence
+# License
 ```
 SingleSevenSegment Arduino Library
 Copyright (C) 2024  Darren B <github.com/drrnb>
@@ -40,4 +40,4 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
-[See LICENCE file](LICENCE.md) for the full shmack.
+[See LICENSE file](LICENSE) for the full shmack.
